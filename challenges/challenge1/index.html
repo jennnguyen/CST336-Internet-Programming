@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<!--
+Jennifer Nguyen
+First Website
+and comment
+in html
+(comments can span multiple lines)
+
+-->
+
+<!-- This is the head -->
+<!-- All styles and javascript go inside the head -->
+    <head>
+        <meta charset="utf-8" />
+        <title>The Seasons</title>
+        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+        
+    </head>
+    <style>
+    
+        div{
+            display: inline-block;
+        }
+        
+        body{
+            color: white;
+            background-color: black !important;
+            text-align:center;
+            font-family: 'Pacifico', cursive;
+        }
+        
+        
+        nav a { 
+            transform: scale(1);
+            transition: .3s;
+        }
+        nav a:hover { 
+            transform: scale(1.3);
+            transition: .3s;
+        }
+        
+        
+        #spring img{
+            border-radius: 30px 0px 0px 0px;
+        }
+        
+        #summer img{
+            border-radius: 0px 30px 0px 0px;
+        }
+        
+        #autumn img{
+            border-radius: 0px 0px 0px 30px;
+        }
+        
+        #winter img{
+            border-radius: 0px 0px 30px 0px;
+        }
+ 
+        
+    </style>
+    
+    
+    <body>
+        <header>
+            <h1 style="color:yellow;">The Seasons</h1>
+        </header>
+   
+        <main>
+            <nav> 
+                <a href="https://en.wikipedia.org/wiki/Spring_(season)">
+                    <div id="spring">
+                        <img src="img/spring.png" alt="Picture of spring" />
+                        <br /><span>Spring</span>
+                    </div>
+                </a>
+                <a href="https://en.wikipedia.org/wiki/Summer">
+                    <div id="summer">
+                        <img src="img/summer.png" alt="Picture of summer" />
+                        <br /><span>Summer</span>
+                    </div>
+                </a>
+                <hr>
+                <a href="https://en.wikipedia.org/wiki/Autumn">
+                    <div id="autumn">
+                        <img src="img/autumn.png" alt="Picture of autumn" />
+                        <br /><span>Autumn</span>
+                    </div>
+                </a>
+                <a href="https://en.wikipedia.org/wiki/Winter">
+                    <div id="winter">
+                        <img src="img/winter.jpg" alt="Picture of winter" />
+                        <br /><span>Winter</span>
+                    </div>
+                </a>
+            </nav>
+        </main>
+        
+
+    </body>
+    <!-- closing body -->
+
+</html>

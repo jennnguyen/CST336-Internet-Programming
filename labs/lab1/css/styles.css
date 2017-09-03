@@ -17,11 +17,55 @@ nav a:hover {
     border-bottom:2px orange solid;
     font-size:2em;
     transition: .9s;
+    
 }
 #me, #welcomeText{
     float: left;
 }
 
+#welcomeText{
+    text-align: left;
+}
+
 footer {
     clear: left;
+    font-size:1em;
+    color:red;
+}
+
+table{
+    margin: 0px auto;
+}
+
+td{
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+
+td strong{
+    color: orange;
+}
+
+#table-header {
+    background-color: #351a00;
+}
+.table-row {
+    background-color: #753900;
+    text-align: center;
+}
+
+ul{
+    text-align: left;
+    padding-left: 200px;
+}
+
+.hobby {
+    color: yellow;
+}
+
+h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 4em;
+    margin-bottom: 0px;
+    color: white;
 }
