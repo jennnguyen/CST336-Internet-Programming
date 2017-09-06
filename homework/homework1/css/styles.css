@@ -25,6 +25,15 @@ p, ul {
     margin-left: 100px;
 }
 
+hr {
+    width:50%;
+    
+}
+
+iframe {
+    border: 0;
+
+}
 .type {
     color: orange;
     text-decoration: underline;
