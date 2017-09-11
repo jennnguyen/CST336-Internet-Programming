@@ -1,0 +1,36 @@
+[06-Sep-2017 20:15:36 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/cst336/labs/lab2/index.php on line 13
+[08-Sep-2017 04:08:23 UTC] PHP Fatal error:  Call to undefined function displaySymbol() in /home/ubuntu/workspace/cst336/labs/lab2/index.php on line 13
+[08-Sep-2017 04:08:24 UTC] PHP Stack trace:
+[08-Sep-2017 04:08:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/index.php:0
+[08-Sep-2017 04:09:37 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/labs/lab2/index.php on line 50
+[08-Sep-2017 04:16:17 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/labs/lab2/index.php on line 48
+[08-Sep-2017 04:48:13 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 91 bytes) in /home/ubuntu/workspace/cst336/labs/lab2/index.php on line 11
+[08-Sep-2017 04:48:13 UTC] PHP Stack trace:
+[08-Sep-2017 04:48:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/index.php:0
+[08-Sep-2017 04:49:43 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 91 bytes) in /home/ubuntu/workspace/cst336/labs/lab2/index.php on line 11
+[08-Sep-2017 04:49:43 UTC] PHP Stack trace:
+[08-Sep-2017 04:49:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/index.php:0
+[08-Sep-2017 04:50:25 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 90 bytes) in /home/ubuntu/workspace/cst336/labs/lab2/index.php on line 11
+[08-Sep-2017 04:50:25 UTC] PHP Stack trace:
+[08-Sep-2017 04:50:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/index.php:0
+[08-Sep-2017 20:02:43 UTC] PHP Warning:  rand() expects exactly 2 parameters, 1 given in /home/ubuntu/workspace/cst336/labs/lab2/index.php on line 11
+[08-Sep-2017 20:02:43 UTC] PHP Stack trace:
+[08-Sep-2017 20:02:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/index.php:0
+[08-Sep-2017 20:02:43 UTC] PHP   2. rand() /home/ubuntu/workspace/cst336/labs/lab2/index.php:11
+[08-Sep-2017 20:02:43 UTC] PHP Warning:  rand() expects exactly 2 parameters, 1 given in /home/ubuntu/workspace/cst336/labs/lab2/index.php on line 11
+[08-Sep-2017 20:02:43 UTC] PHP Stack trace:
+[08-Sep-2017 20:02:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/index.php:0
+[08-Sep-2017 20:02:43 UTC] PHP   2. rand() /home/ubuntu/workspace/cst336/labs/lab2/index.php:11
+[08-Sep-2017 20:02:43 UTC] PHP Warning:  rand() expects exactly 2 parameters, 1 given in /home/ubuntu/workspace/cst336/labs/lab2/index.php on line 11
+[08-Sep-2017 20:02:43 UTC] PHP Stack trace:
+[08-Sep-2017 20:02:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/index.php:0
+[08-Sep-2017 20:02:43 UTC] PHP   2. rand() /home/ubuntu/workspace/cst336/labs/lab2/index.php:11
+[08-Sep-2017 20:05:41 UTC] PHP Fatal error:  Cannot redeclare displaySymbol() (previously declared in /home/ubuntu/workspace/cst336/labs/lab2/index.php:21) in /home/ubuntu/workspace/cst336/labs/lab2/inc/functions.php on line 2
+[08-Sep-2017 20:05:41 UTC] PHP Stack trace:
+[08-Sep-2017 20:05:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/index.php:0
+[08-Sep-2017 20:05:42 UTC] PHP Fatal error:  Cannot redeclare displaySymbol() (previously declared in /home/ubuntu/workspace/cst336/labs/lab2/index.php:21) in /home/ubuntu/workspace/cst336/labs/lab2/inc/functions.php on line 2
+[08-Sep-2017 20:05:42 UTC] PHP Stack trace:
+[08-Sep-2017 20:05:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/index.php:0
+[08-Sep-2017 20:07:53 UTC] PHP Fatal error:  Cannot redeclare displaySymbol() (previously declared in /home/ubuntu/workspace/cst336/labs/lab2/index.php:21) in /home/ubuntu/workspace/cst336/labs/lab2/inc/functions.php on line 2
+[08-Sep-2017 20:07:53 UTC] PHP Stack trace:
+[08-Sep-2017 20:07:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/index.php:0
