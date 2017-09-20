@@ -46,7 +46,7 @@
                 echo "</div>";
                 
                 // Chooses random snack
-                $snack = rand(0, 4);
+                $snack = rand(0, 5);
                 // 50/50 chance of an extra item falling out
                 $extra = rand(0, 1);
                 // 50/50 chance of a coin falling out
@@ -55,7 +55,7 @@
                 // Array of coins
                 $coins = array("quarter", "dime", "nickel", "penny");
                 // Chooses random coin
-                $randcoin = rand(0, 3);
+                $randcoin = rand(0, count($coins)-1);
                 
                 
                 // Displays the items that came out of the vending machine
