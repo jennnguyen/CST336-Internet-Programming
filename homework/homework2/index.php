@@ -35,7 +35,7 @@
                         
                         echo "<div class='items'>";
                         //For loop to display the items
-                        for ($i=0; $i<5; $i++){
+                        for ($i=0; $i<6; $i++){
                             displaySnack($machine[$i]);
                             if ($i % 2 == 1){
                                 echo "<br />";

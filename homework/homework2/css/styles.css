@@ -1,9 +1,7 @@
 body {
     background-color: rgb(192, 233, 255);
     font-family: 'Oxygen', sans-serif;
-    
 }
-
 .vendingmachine {
     position:absolute;
     z-index:0;
