@@ -58,9 +58,6 @@
             }
             
             
-            function compareCards($randomCard1, $randomCard2) {
-                
-            }
       
         
         

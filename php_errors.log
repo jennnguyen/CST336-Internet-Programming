@@ -39,3 +39,4 @@
 [08-Sep-2017 19:38:52 UTC] PHP Stack trace:
 [08-Sep-2017 19:38:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/RandomColor.php:0
 [08-Sep-2017 19:38:52 UTC] PHP   2. getRandomColor() /home/ubuntu/workspace/cst336/practice/RandomColor.php:29
+[13-Sep-2017 19:35:49 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 48
