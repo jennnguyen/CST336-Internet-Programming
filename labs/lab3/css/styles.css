@@ -1,0 +1,89 @@
+header 
+{
+     background: grey; 
+     background: -webkit-linear-gradient(yellow, orange);
+     background: -moz-linear-gradient(yellow, orange);
+     background: -o-linear-gradient(yellow, orange);
+     background: linear-gradient(yellow, orange); 
+    
+    height: 65px;
+    
+
+    
+    text-align: center;
+    
+    color: blue;
+}
+
+body
+{
+    opacity: 0.9;
+    background-image: url("balls.png");
+    
+}
+
+#score, #names {
+    font-family: 'Pacifico', cursive;
+    font-size: x-large;
+}
+
+#score 
+{
+     text-align: right;
+}
+#wrapper
+{
+    width: 850px;
+
+	margin: 0px auto;
+
+	border-radius: 25px;
+
+	background-color: white;
+
+	padding: 20px;
+	
+	border-style: solid;
+	 border-width: 5px;
+
+}
+
+#Winner, #time
+{
+    text-align: center;
+    color: blue;
+    
+    
+    
+}
+
+#time 
+{
+    font-size: larger;
+}
+
+
+input[type=submit]{
+  display: inline-block;
+  margin-left: 326px;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: orange;
+  background-color: yellow;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  
+}
+
+input[type=submit]:hover {background-color: #3e8e41}
+
+input[type=submit]:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
