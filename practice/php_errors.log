@@ -1,0 +1,2 @@
+[27-Sep-2017 19:59:09 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/cst336/practice/zodiac/index.php on line 37
+[27-Sep-2017 20:07:16 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ',' or ';' in /home/ubuntu/workspace/cst336/practice/zodiac/index.php on line 15
