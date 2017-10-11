@@ -6,7 +6,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Random Vending Machine </title>
+        <title>Vending Machine </title>
         <meta charset="utf-8" />
         <style>
             @import url("css/styles.css");
