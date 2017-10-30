@@ -62,9 +62,7 @@
     <head>
         <title> Admin: Adding New User </title>
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-         <style>
-            @import url("css/styles.css");
-        </style>
+        
         <meta charset="utf-8"/>
     </head>
     <body>
@@ -85,9 +83,9 @@
                 </br>  
                 Phone: <input type="text" name="phone"/>
                 </br>
-                Gender: <input type="radio" name="gender" id="genderF" required/>
+                Gender: <input type="radio" name="gender" id="genderF" value="F" required/>
                         <label for="genderF">Female</label>
-                        <input type="radio" name="gender" id="genderM" required/>
+                        <input type="radio" name="gender" id="genderM" value="M" required/>
                         <label for="genderM">Male</label>
                 </br>
                 Role: <select name="role">

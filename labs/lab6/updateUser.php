@@ -36,19 +36,9 @@
     }
     
     if (isset($_GET['updateUserForm'])) {
-        
-        $firstName = $_GET['firstName'];
-        $lastName = $_GET['lastName'];
-        $email    = $_GET['email'];
-        $universityId = $_GET['universityId'];
-        $phone    = $_GET['phone'];
-        $gender   = $_GET['gender'];
-        $role   = $_GET['role'];
-        $deptId   = $_GET['deptId'];
-        
         $sql = "UPDATE tc_user
                 SET firstName = :fName,
-                lastName = :lName
+                lastName = :lName,
                 email = :email,
                 universityId = :universityId,
                 gender = :gender,
@@ -56,22 +46,25 @@
                 role = :role,
                 deptId = :deptId
 			    WHERE userId = :userId";
-                
+        
+
         $namedParameters = array();
-        $namedParameters[':fName'] =  $firstName;
-        $namedParameters[':lName'] =  $lastName;
-        $namedParameters[':email'] =  $email;
-        $namedParameters[':universityId'] =  $universityId;
-        $namedParameters[':gender'] = $gender;
-        $namedParameters[':phone']  = $phone;
-        $namedParameters[':role']   = $role;
-        $namedParameters[':deptId'] = $deptId;
+        $namedParameters[':fName'] =  $_GET['firstName'];
+        $namedParameters[':lName'] =  $_GET['lastName'];
+        $namedParameters[':email'] =  $_GET['email'];
+        $namedParameters[':universityId'] =  $_GET['universityId'];
+        $namedParameters[':gender'] = $_GET['gender'];
+        $namedParameters[':phone']  =  $_GET['phone'];
+        $namedParameters[':role']   = $_GET['role'];
+        $namedParameters[':deptId'] = $_GET['deptId'];
         
         
     	$namedParameters[':userId'] = $_GET['userId'];
         $stmt = $conn->prepare($sql);
         $stmt->execute($namedParameters);
+       
         
+        echo "User has been updated successfully!";
     }
 
     if (isset($_GET['userId'])) {
@@ -114,9 +107,9 @@
                 </br>  
                 Phone: <input type="text" name="phone" value="<?=$userInfo['phone']?>"/>
                 </br>
-                Gender: <input type="radio" name="gender" id="genderF" <?=($userInfo['gender']=='F')?"checked":""?> required/>
+                Gender: <input type="radio" name="gender" id="genderF" value="F" <?=($userInfo['gender']=='F')?"checked":""?> required/>
                         <label for="genderF">Female</label>
-                        <input type="radio" name="gender" id="genderM" <?=($userInfo['gender']=='M')?"checked":""?> required/>
+                        <input type="radio" name="gender" id="genderM" value="M" <?=($userInfo['gender']=='M')?"checked":""?> required/>
                         <label for="genderM">Male</label>
                 </br>
                 Role: <select name="role">
@@ -141,7 +134,7 @@
                                             
                                         echo ">" . $record['deptName'] . "</option>";
                                     }
-                                        //<?=($userInfo['deptName']==$record['deptName')?"selected":""
+                                    
                                 ?>
                             </select>
                 </br>

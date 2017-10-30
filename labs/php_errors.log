@@ -571,3 +571,69 @@ Stack trace:
 [27-Oct-2017 20:52:04 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php on line 23
 [30-Oct-2017 02:16:32 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php on line 134
 [30-Oct-2017 02:17:19 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ',' or ';' in /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php on line 135
+[30-Oct-2017 05:28:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'email = 'asd@asd.sfg',
+                universityId = 'asdf1234',
+              ' at line 4' in /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php:73
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php(73): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php on line 73
+[30-Oct-2017 05:37:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'email = 'asd@asd.sfg',
+                universityId = 'asdf1234',
+              ' at line 4' in /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php:73
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php(73): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php on line 73
+[30-Oct-2017 05:38:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'email = 'asd@asd.sfg',
+                universityId = 'ggm8',
+                ge' at line 4' in /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php:73
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php(73): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php on line 73
+[30-Oct-2017 05:38:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'email = 'asd@asd.sfg',
+                universityId = 'wut',
+                gen' at line 4' in /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php:73
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php(73): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php on line 73
+[30-Oct-2017 05:55:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'email = 'asd@asd.sfg',
+                universityId = 'wut',
+                gen' at line 4' in /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php:73
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php(73): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php on line 73
+[30-Oct-2017 05:56:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'email = 'asd@asd.sfg',
+                universityId = 'wut',
+                gen' at line 4' in /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php:73
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php(73): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php on line 73
+[30-Oct-2017 05:56:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'email = 'asd@asd.sfg',
+                universityId = 'wut',
+                gen' at line 4' in /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php:73
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php(73): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php on line 73
+[30-Oct-2017 05:59:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'email = 'asd@asd.sfg',
+                universityId = 'wut',
+                gen' at line 4' in /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php:73
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php(73): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php on line 73
+[30-Oct-2017 06:21:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php:74
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php(74): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php on line 74
+[30-Oct-2017 06:25:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php:65
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php(65): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php on line 65
