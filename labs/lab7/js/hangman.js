@@ -15,12 +15,7 @@ var words = [{ word: "snake", hint: "It's a reptile" },
 
 window.onload = startGame();
 
-function startGame() {
-    pickWord();
-    createLetters();
-    initBoard();
-    updateBoard();
-}
+
 
 $("#hint").on('click', function(){
     if(hinter == false){
@@ -32,10 +27,8 @@ $("#hint").on('click', function(){
 
 
 
-//events // "button"
-$(".letters").click( function(){ 
-    //alert($(this).attr("id"));
-    checkLetter( $(this).attr("id") );
+$("#letters").on("click", ".letter", function(){
+    checkLetter($(this).attr("id"));
     disableButton($(this));
     hinter = false;
 });
@@ -60,8 +53,6 @@ function initBoard() {
     for (var letter in selectedWord) {
         board += '_';
     }
-    //console.log(board);
-    
 }
 function pickWord() {
     var randomInt = Math.floor( Math.random() * words.length );
@@ -73,11 +64,9 @@ function pickWord() {
 function updateBoard() {
     $("#word").empty();
     for (var letter of board) {
-        $("#word").innerHTML += letter + " ";
+        $("#word").append(letter + " ");
     }
     
-    $("#word").append("</br>");
-    $("#word").append("<span class='hint'> Hint " + selectedHint + "</span>");    
 }
 
 function createLetters(){
@@ -129,7 +118,12 @@ function disableButton(btn) {
     btn.prop("disabled",true);
     btn.attr("class", "btn btn-danger")
 }
-
+function startGame() {
+    pickWord();
+    createLetters();
+    initBoard();
+    updateBoard();
+}
 
 function endGame(win) {
     $("#letters").hide();
