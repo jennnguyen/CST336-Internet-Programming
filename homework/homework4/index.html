@@ -1,0 +1,35 @@
+
+<!doctype html>
+
+<html>
+	<head>
+		<title>IQ TEST</title>
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<script language="javascript" type="text/javascript" src="js/iq.js"></script>
+
+	</head>
+	<body onload="newProblem()">
+		
+		<div id="introScreen">
+			<p>This IQ test has 10 problems</p>
+			<p>Your score is based on the number of problems you answer correctly and the amount of time you take to complete the test.</p>
+			<p>Good Luck!</p>
+			<div class="button" onclick="start()">START TEST</div>
+		</div>
+		
+		<div id="testScreen">
+			<h1>IQ TEST</h1>
+			<h2 id="question">Question</h2>
+			<img id="graphic">
+			<div id="answer1" class="button" onclick="respond(this);">Possible Answer</div>
+			<div id="answer2" class="button" onclick="respond(this);">Possible Answer</div>
+			<div id="answer3" class="button" onclick="respond(this);">Possible Answer</div>
+			<div id="answer4" class="button" onclick="respond(this);">Possible Answer</div>
+			
+		</div>
+		
+		
+		
+	</body>
+</html>
+
