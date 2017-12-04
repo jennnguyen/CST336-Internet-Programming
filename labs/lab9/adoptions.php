@@ -1,7 +1,7 @@
 <?php
     include 'inc/header.php';
     include '../../dbConnection.php';
-    $conn = getDatabaseConnection("c9");
+    $conn = getDatabaseConnection();
     
     
     function getPetList() {
