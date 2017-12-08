@@ -1,4 +1,3 @@
-
 <?php
     session_start();
     
@@ -6,11 +5,17 @@
         header("Location: index.php");
     }
     
-    include("../../dbConnection.php");
+    include("../dbConnection.php");
     $conn = getDatabaseConnection();
-    $sql = "DELETE FROM tc_user
-            WHERE userId = " . $_GET['userId'];
-                
+    
+    
+    $sql = "DELETE FROM fi_cars
+            WHERE id = " . $_GET['carId'];
+    $stmt = $conn->prepare($sql);
+    $stmt->execute();
+    
+    $sql = "DELETE FROM fi_carInfo
+            WHERE id = " . $_GET['carId'];
     $stmt = $conn->prepare($sql);
     $stmt->execute();
     

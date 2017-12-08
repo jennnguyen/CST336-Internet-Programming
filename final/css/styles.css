@@ -1,0 +1,31 @@
+.container {
+    background-color: lightgrey;
+
+    padding: 30px;
+}
+
+body {
+    padding: 30px;
+}
+
+#leftimg { 
+    width: 430px; 
+    float: left;
+}
+
+#righttext { 
+    float: left;
+}
+
+#left {
+    width: 100px;
+    float: left;   
+}
+
+#right{
+    float: left;  
+}
+
+.clear { 
+    clear: both;
+}
