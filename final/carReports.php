@@ -24,7 +24,7 @@
     }
     function avgCost(){
         global $conn;
-        echo "</br><h5>Number of used cars in the shop:</h5>";
+        echo "</br><h5>Average cost of used cars in the shop:</h5>";
         $sql = "SELECT FLOOR(AVG(cost))
                 FROM fi_carInfo";
         $stmt = $conn->query($sql);	
@@ -36,13 +36,13 @@
     
     function avgMilage(){
         global $conn;
-        echo "</br><h5>Number of used cars in the shop:</h5>";
+        echo "</br><h5>Average mileage of used cars in the shop:</h5>";
         $sql = "SELECT FLOOR(AVG(milage))
                 FROM fi_carInfo";
         $stmt = $conn->query($sql);	
         $results = $stmt->fetchAll();
         foreach ($results as $record) {
-        	echo "<strong>Avgerage Milages:</strong> " . $record['FLOOR(AVG(milage))']  . " miles<br />";
+        	echo "<strong>Avgerage Mileages:</strong> " . $record['FLOOR(AVG(milage))']  . " miles<br />";
         }
     }
     
